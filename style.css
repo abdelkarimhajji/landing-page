@@ -1,0 +1,59 @@
+.mainleft{
+
+    background: #79AEB2;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+input{
+    width:40%;
+    margin-top: 20px;
+    border-radius: 5px;
+    height: 30px;
+    border: 1px solid black;
+    margin-left: 20px;
+    font-style: italic;
+    padding-left: 10px;
+    box-shadow: 2px 2px 4px rgba(145, 143, 143, 0.9);
+    background-color: #ffffff;
+    color: black;
+    font-family: rubik ;
+}
+img{
+        width: 200px;
+        height: 200px;
+}
+
+.titreformulaire{
+    margin-left: 170px;
+    margin-top: 23px;
+    color: white;
+    font-family: rubik ;
+    font-size: 44PX;
+}
+
+
+.button_main{
+    width: 100px;
+    margin-left: 440px;
+    background-color:#ffffff;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: black;
+}
+.button_main:hover{
+color:#79AEB2;
+cursor: pointer;
+}
+#form{
+background-color: #79AEB2;
+}
+#formimg{
+margin-left: 700px;
+height: 300px;
+width:400px;
+margin-top: -400px;
+border:solid 2px #79AEB2;
+padding-bottom: 34px;
+}
