@@ -341,12 +341,7 @@ h4
     font-size: 20px;
     color: rgb(221, 216, 216);
 }
-.copie i:hover{
-    font-size: 40px;
-    color: white;
-    color: turquoise;
-   
-}
+
 #facebook{
 position: absolute;
 right: 29%;
@@ -415,6 +410,18 @@ header .description
     font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 20px;
 }
+.ByNow
+{
+    position: absolute;
+    position: fixed;
+    left: 94vw;
+    top: 80vh;
+    width: 100px;
+    z-index: 10; 
+    color: white;
+    border-radius: 10px;
+}
+
 @media  (max-width: 414px){
     
    
