@@ -1,43 +1,49 @@
-
-
-
 *{
     margin: 0px;
     padding: 0px;
-}
-
-    
-
-
-
-
-img{
-    width: 120px;
-    margin-top: -10px;
-    margin-left: 30px;
-    float:left;
 
 }
+
+
 
 nav{
    height: 80px; 
-   background-color: #79AEB2;
+   background-color: black;
    position: fixed;
    z-index: 1;
    width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-family: Arial, Helvetica, sans-serif;
+   font-style: italic;
 }
-.bar{
-    margin-left: 550px;
-    padding-top: 18px;
-    padding-top: 30px;
-    
-    
+nav .parentLogo
+{
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-color: red; */
+}
+nav .bar
+{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.parentLogo img{
+    width: 100px;
+    margin-top: 20px;
 }
 ul{
     display: inline;
     list-style: none;
-    
-
+    font-family: Arial, Helvetica, sans-serif;
 }
 ul li.home{
     color:white;
@@ -48,54 +54,27 @@ ul li{
     color: white;
     font-family:rubik;
     font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 ul li:hover{
     color: #334647;
 }
-
-.header{
-        
-    background-image: url(lagonda.jpg);
-    height: 500px;
-    background-position: center;
+header
+{
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    /* align-items: center; */
+    background-image: url('IMG/carBlack.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: 0.5;
-    margin-top: -1px;
+    background-size: cover;
+    background-position: center;
 }
-header .title .first-title{
-    background-image:linear-gradient(102deg,#234347, #717780) ;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color:transparent;
-}
-.title{
-    position: absolute;
-    top: 40%;
-    left: 23%;
-    font-size: 50px;
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
-    
-}
-button{
-    width: 250px;
-    height: 70px;
-    margin-left: 33%;
-    margin-top: 70px;
-    background-color:#79AEB2;
-    border: 3px solid #79aeb2a2;
-    font-size: 25px;
-    color: white;
-    border-radius: 7px;
-}
-button:hover{
-    
-    background-color:#79aeb2a2;
-   
-}
+
 .store{
     height: 380px;
-    background-color: #79AEB2;
+    /* background-color: #79AEB2; */
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
@@ -124,22 +103,25 @@ button:hover{
     font-style: italic;
     font-family:rubik;
     font-size: 40px;
-    color:#79AEB2;
-    
-   
+    color:black;
+}
+main
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .part1{
     width: 80%;
     height: 380px;
-    background-color:white;
     margin-top: 80px;
     display: flex;
     flex-direction:row;
-    background-color: #79aeb2d0;
-    margin-left: 130px;
+    background-color: black;
     box-shadow: 7px 7px 7px rgb(0,0,0, 0.5);
     border: 1px solid black;
-    
+    color: white;
 }
 .child1{
     width: 60%;
@@ -370,341 +352,51 @@ right: 29%;
     font-size: 16px;
     
 }
-
-/*span{
-    display:inline-block;
-    border-bottom-style: solid;
-    border-bottom:6px solid;
-    padding-bottom: 50px;
-    width: 300px;
-}*/
+.title
+{
+    margin-top: 350px;
+    margin-left: 50px;
+}
+header  .first-title
+{
+    font-size: 50px !important;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-bottom: 20px;
+}
+header button
+{
+    width: 200px;
+    height: 50px;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 0 auto;
+    cursor: pointer;
+    transition: 0.5s all;
+}
+header button:hover
+{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
+header .description
+{
+    color: white;
+    width: 500px;
+    font-size: 17px;
+    line-height: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
 @media  (max-width: 414px){
     
-    *{
-        margin: 0px;
-        padding: 0px;
-    }
-    body{
-        
-        width: 100%;
-    }
-    
-    
-    
-    img{
-        width: 50px;
-        margin-top: 2px;
-        margin-left: 10px;
-        float:left;
-    
-    }
-    
-    nav{
-       width: 100%;
-       height: 50px; 
-       position: fixed;
-       z-index: 1;
-    }
-    .bar{
-        margin-left: 150px;
-        padding-top: 18px;
-    }
-    ul{
-        display: inline;
-        list-style: none;
-        
-    
-    }
-    ul li{
-        margin-left: 20px;
-        float: left;
-        color: white;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 12px;
-
-    }
-    header{
-        position: relative;
-       
-    }
-    .header{
-        
-        background-image: url(lagonda.jpg);
-        height: 400px;
-        background-position: center;
-        opacity: 0,1;
-        margin-top: -1px;
-        
-    }
-    .title{
-        position: absolute;
-        top: 26%;
-        left: 15%;
-        font-size: 25px;
-        font-weight: bold;
-        font-family: Arial, Helvetica, sans-serif;
-        margin-top: 70px;
-    }
-    button{
-        width: 130px;
-        height: 40px;
-        margin-left: 25%;
-        margin-top: 50px;
-        background-color:#79AEB2;
-        border: 1px solid black;
-        border-radius: 7px;
-        font-size: 20Px;
-    }
-    button:hover{
-        
-        background-color:#79aeb2a2;
-       
-    }
-    .store{
-        height: 180px;
-        background-color: #79AEB2;
-        color: white;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 18px;
-        text-align: center;
-        padding-top: 30px;
-        line-height: 30px;
-        padding-right: 0px;
-    }
    
-    .store1{
-        margin-left: 140px;
-    }
-    .limité{
-        height: 100px;
-        width: 120px;
-    }
-    .ourcar{
-        margin-top: 30px;
-        text-align: center;
-        font-family:rubik;
-        font-size: 20px;
-        color:#79AEB2;
-}
-    .part1{
-        width: 100%;
-        height: 320px;
-        background-color:white;
-        margin-top: 0px;
-        margin-left: 0;
-        display: flex;
-        flex-direction: column;
-        border: 0;
-        box-shadow: 0 0 0;
-    }
-    .child1{
-        width:100%;
-        box-shadow: 1PX solid black;
-        
-    }
-    .lagonda1{
-        width: 85%;
-        height: 160px;
-        margin-left: 30px;
-        margin-top: 30px;
-        box-shadow: 10px 10px 4px rgb(0,0,0, 0.5);
-        
-    }
-    
-    .child2{
-        width: 85%;
-        height: 160px;
-        margin-left: 30px;
-        margin-top: 0px;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 18px;
-        line-height: 30px;
-        text-align: justify;
-    }
-    .part2{
-        width: 100%;
-        height: 320px;
-        background-color:white;
-        display: flex;
-        flex-direction: column;
-        border: 0;
-        box-shadow: 0 0 0;
-        margin-left: 0;
-
-    }
-    .div-classic{
-        padding-top: 70px;
-        display: flex;
-        flex-direction:column;
-        margin-left: 20px;
-    }
-    .image-classic{
-        width: 80px;
-        height: 80px;
-        margin-left: 0;
-    }
-    .image-star{
-        width: 130px;
-        margin-top: -20px;
-        margin-left: 0;
-    }
-    .comment{
-        display: flex;
-        flex-direction: column;
-        /*justify-content: center;*/
-    }
-    .child3{
-        width: 250px;
-        height: 250px;
-        background-color:white;
-        margin-left: 80px;
-        margin-top: 100px;
-        border-radius: 150px;
-        border: 2px solid black;
-        box-shadow: 10px 10px 5px rgb(0,0,0, 0.5);
-        display: flex;
-        flex-direction: column;
-
-    }
-    .ronaldo{
-        width: 90px;
-        margin-left: 80px;
-        margin-top: -40px;
-        
-    }
-    .p{
-        margin-top: 20px;
-        width: 130px;
-        margin-left: 60px;
-        font-size: 20px;
-        font-family: Arial, Helvetica, sans-serif;
-        line-height: 25px;
-        text-align: justify;
-    }
-    .star{
-        margin-top: 20px;
-        margin-left:90px ;
-        width: 70px;
-    }
-    .parent-buy{
-        display: flex;
-         justify-content: center;
-         align-items: center;
-     }
-     .Buynow{
-         width: 300px;
-     }
-     footer{
-         width: 100%;
-         height: 300px;
-         background-color:#79AEB2; 
-     }
-     .contenir{
-        display: flex;
-        
-    }
-     .parent{
-        display: flex;
-        flex-direction:column;
-         
-
-        
-     }
-     h4{
-        color: white;
-        font-family: Arial, Helvetica, sans-serif;
-        padding-top: 30px;
-        font-size: 23px;
-        margin-left: 30px;
-     }
-     form{
-         margin-top: 30px;
-         margin-left: 20px;
-
-     }
-
-     .child4{
-         display: block;
-         padding-left: 5px;
-        
-         margin-top: 20px;
-         height:30px ;
-         border: 1px solid white;
-         font-family: Arial, Helvetica, sans-serif;
-         width: 160px;
-         font-size: 15px;
-         
-     }
-     .child5{
-         margin-left: 100px;
-         width: 70px;
-         height: 35px;
-         margin-top: 20px;
-         border: 2px solid white;
-         background-color: #79AEB2;
-         color: white;
-         font-size: 10px;
-     }
-
-     
-     .map{
-         width: 180px;
-         height: 150px;
-         margin-top:70px;
-         margin-left: 25px;
-         box-shadow: 5px 5px 5px rgb(0,0,0, 0.5);
-
-     }
-     .copie{
-         width: 100%;
-         height: 60px;
-         background-color: #195057b4;
-         display: flex;
-         flex-direction:row;
-         align-items: center;
-         justify-content: space-evenly;
-         
-     }
-     .copie i{
-         font-size: 20px;
-         color:white;
-         margin-top: 5px;
-        
-}
-.copie i:hover{
-    font-size: 30px;
-    color: white;
-    color: turquoise;
-   
-}
-#facebook{
-    position: absolute;
-    right: 22%;
-    }
-    #instagram{
-        position: absolute;
-        right: 14%;
-    }
-    #twitter{
-        position: absolute;
-        right: 5%;
-    }
-    #google{
-    position: absolute;
-    right: 29%
-    }
-
-.right{
-    position: absolute;
-    left: 4%;
-    margin-top: -15px;
-    font-family:Arial, Helvetica, sans-serif;
-    color: rgb(204, 204, 204);
-    font-weight: bolder;
-    font-size: 13px;
-    line-height: 17px;
-    width: 240px;
-}
 
 
 }
