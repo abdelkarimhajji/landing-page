@@ -410,6 +410,15 @@ header .description
     font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 20px;
 }
+@keyframes floatUpDown {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+  }
+  
 .ByNow
 {
     position: absolute;
@@ -420,6 +429,8 @@ header .description
     z-index: 10; 
     color: white;
     border-radius: 10px;
+    cursor: pointer;
+    animation: floatUpDown 2s infinite;
 }
 
 @media  (max-width: 414px){
