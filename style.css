@@ -55,9 +55,12 @@ ul li{
     font-family:rubik;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 1px solid white;
+    transition: 0.5s all;
 }
 ul li:hover{
     color: #334647;
+    border-bottom: 1px solid #334647;
 }
 header
 {
@@ -105,6 +108,8 @@ header
     font-family:rubik;
     font-size: 40px;
     color:black;
+    border-bottom: 3px solid black;
+    border-radius: 2px;
 }
 main
 {
@@ -232,7 +237,7 @@ footer{
     width: 100%;
     height: 500px;
     background-color:rgba(0, 0, 0, 0.884); 
-   
+   padding-top: 50px;
 
 }
 .contenir{
@@ -264,6 +269,8 @@ h4{
    padding-top: 50px;
    font-size: 40px;
    margin-left: 100px;
+   border-bottom: 2px solid white;
+   display: inline;
 }
 form{
     margin-top: 30px;
@@ -433,6 +440,7 @@ header .description
     cursor: pointer;
     animation: floatUpDown 2s infinite;
 }
+
 
 @media  (max-width: 414px){
     
