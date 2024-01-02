@@ -135,6 +135,10 @@ main
     justify-content: center;
     align-items: center;
 }
+.child1 img
+{
+    width: 75%;
+}
 .lagonda1{
    width: 600px;
    height: 300px;
@@ -185,21 +189,20 @@ main
 .comment{
     display: flex;
     flex-direction: row;
-   /* justify-content: space-between;*/
-    /*justify-content: center;*/
+    /* justify-content: space-around; */
+    width: 100%;
+    margin-top: 200px;
 }
 .child3{
-    width: 250px;
+    width: 30%;
     height: 240px;
     background-color:white;
-    margin-left: 140px;
     margin-top: 100px;
-    border-radius: 150px;
     border: 2px solid black;
     box-shadow: 10px 10px 5px 5px rgb(0,0,0, 0.5);
     display: flex;
     flex-direction: column;
-
+    margin: 0 auto;
 }
 .ronaldo{
     width: 90px;
